@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){let e=document.getElementById("username"),t=document.getElementById("password"),a=document.getElementById("saveBtn"),n=JSON.parse(localStorage.getItem("formData"));n&&(e.value=n.username||"",t.value=n.password||""),a.addEventListener("click",function(){let a={username:e.value,password:t.value};localStorage.setItem("formData",JSON.stringify(a)),alert("Дані збережено!")})});
+//# sourceMappingURL=hw8-js4-localstorage.29994687.js.map
