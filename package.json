@@ -14,7 +14,11 @@
   "author": "Sofia",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
