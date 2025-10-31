@@ -1,0 +1,23 @@
+{
+  "name": "hw8-js4-localstorage",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Yosohanomi/hw8-js4-localstorage#readme",
+  "bugs": {
+    "url": "https://github.com/Yosohanomi/hw8-js4-localstorage/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yosohanomi/hw8-js4-localstorage.git"
+  },
+  "license": "ISC",
+  "author": "Sofia",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.0"
+  }
+}
